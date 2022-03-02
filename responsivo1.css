@@ -1,0 +1,48 @@
+@media(max-width: 600px){
+    body{
+        background-color: black;
+    }
+    header{
+        display: flex;
+        justify-content: center;     
+    }
+
+    img{
+        width: 100px;
+        border-radius: 5px;
+    }
+    h3{
+        display: none;
+    }
+    main{
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul{
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    li{
+        color: white;
+        list-style: none;
+        text-align: center;
+    }
+    figcaption{
+        padding-top: 5px;
+    }
+
+    footer{
+        margin-top: 40px;
+    }
+    
+    
+    
+    
+    
+    
+    
+}
